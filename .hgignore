@@ -4,4 +4,5 @@ syntax: glob
 *.swp
 *.bak
 *cache.lib
-old
+old1
+old2
