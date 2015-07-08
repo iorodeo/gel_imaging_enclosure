@@ -27,8 +27,8 @@ prog.add(gcode_cmd.PathBlendMode(p=0.02,q=0.01))
 
 param = {
         'fileName'    : fileName,
-        'dxfTypes'    : ['LINE', 'ARC', 'CIRCLE'],
-        'layers'      : layerList,
+        'dxfTypes'    : ['LINE', 'ARC'],
+        'layers'      : ['boundary'],
         'depth'       : depth,
         'startZ'      : startZ,
         'safeZ'       : safeZ,
@@ -41,6 +41,23 @@ param = {
         }
 boundary = cnc_dxf.DxfBoundary(param)
 prog.add(boundary)
+
+
+param = {
+        'fileName'    : fileName,
+        'layers'      : ['circ_boundary'],
+        'depth'       : depth,
+        'startZ'      : startZ,
+        'safeZ'       : safeZ,
+        'toolDiam'    : toolDiam,
+        'direction'   : direction,
+        'cutterComp'  : cutterComp,
+        'maxCutDepth' : maxCutDepth,
+        'startDwell'  : startDwell, 
+        }
+
+circBoundary = cnc_dxf.DxfCircBoundary(param)
+prog.add(circBoundary)
 
 prog.add(gcode_cmd.ExactPathMode())
 
