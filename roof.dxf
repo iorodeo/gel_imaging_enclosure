@@ -67,7 +67,7 @@ STANDARD
 9
 $CLAYER
 8
-6-32_through_hole
+boundary
 9
 $DIMASZ
 40
@@ -229,9 +229,9 @@ AcDbViewportTableRecord
 21
 1
 12
-13.1801808897
+13.1936026625
 22
-5.31502202882
+5.31502202883
 13
 0
 23
@@ -1141,7 +1141,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
 2
-boudary
+boundary
 70
 0
 62
@@ -1957,7 +1957,7 @@ ARC
 100
 AcDbEntity
 8
-boudary
+boundary
 6
 ByLayer
 62
@@ -1985,7 +1985,7 @@ LINE
 100
 AcDbEntity
 8
-boudary
+boundary
 6
 ByLayer
 62
@@ -2009,7 +2009,7 @@ ARC
 100
 AcDbEntity
 8
-boudary
+boundary
 6
 ByLayer
 62
@@ -2227,7 +2227,7 @@ ARC
 100
 AcDbEntity
 8
-boudary
+boundary
 6
 ByLayer
 62
@@ -2255,7 +2255,7 @@ LINE
 100
 AcDbEntity
 8
-boudary
+boundary
 6
 ByLayer
 62
@@ -2279,7 +2279,7 @@ ARC
 100
 AcDbEntity
 8
-boudary
+boundary
 6
 ByLayer
 62
@@ -2491,7 +2491,7 @@ LINE
 100
 AcDbEntity
 8
-boudary
+boundary
 6
 ByLayer
 62
@@ -2515,7 +2515,7 @@ LINE
 100
 AcDbEntity
 8
-boudary
+boundary
 6
 ByLayer
 62

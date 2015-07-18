@@ -67,7 +67,7 @@ STANDARD
 9
 $CLAYER
 8
-boundary
+8-32_insert_hole
 9
 $DIMASZ
 40
@@ -229,9 +229,9 @@ AcDbViewportTableRecord
 21
 1
 12
-9.89184655362
+9.90526832642
 22
-3.46281738241
+3.47623915521
 13
 0
 23
@@ -1251,7 +1251,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
 2
-8-32_thread_insert
+8-32_insert_hole
 70
 0
 62
@@ -2229,7 +2229,7 @@ CIRCLE
 100
 AcDbEntity
 8
-8-32_thread_insert
+8-32_insert_hole
 6
 ByLayer
 62

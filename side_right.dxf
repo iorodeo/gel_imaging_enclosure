@@ -27,7 +27,7 @@ $INSBASE
 9
 $EXTMIN
 10
--6
+-4.5
 20
 -6
 30
@@ -35,9 +35,9 @@ $EXTMIN
 9
 $EXTMAX
 10
-6
+4.5
 20
-7.025
+6
 30
 0
 9
@@ -67,7 +67,7 @@ STANDARD
 9
 $CLAYER
 8
-scratch
+8-32_insert_hole
 9
 $DIMASZ
 40
@@ -223,9 +223,9 @@ AcDbViewportTableRecord
 21
 1
 12
-1.73283032538
+10.02438656
 22
-4.83785116222
+11.2197632
 13
 0
 23
@@ -251,7 +251,7 @@ AcDbViewportTableRecord
 37
 0
 40
-6.70262288293
+31.9605964801
 41
 1.81102362205
 42
@@ -1201,7 +1201,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
 2
-8-32_thread_insert_hole
+8-32_insert_hole
 70
 0
 62
@@ -1803,7 +1803,7 @@ CIRCLE
 100
 AcDbEntity
 8
-8-32_thread_insert_hole
+8-32_insert_hole
 6
 ByLayer
 62
