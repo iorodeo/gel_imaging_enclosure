@@ -14,7 +14,7 @@ param = {
         'layers'      :  ['vector'],
         'dxfTypes'    :  ['LINE','ARC','CIRCLE'],
         'laserPower'  :  600,
-        'feedRate'    :  8,
+        'feedRate'    :  7,
         'convertArcs' :  True,
         'startCond'   : 'minX',
         'direction'   : 'ccw',
