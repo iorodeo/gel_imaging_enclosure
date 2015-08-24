@@ -12,7 +12,7 @@ safeZ = 0.5
 overlap = 0.6
 overlapFinish = 0.6
 maxCutDepth = 0.08
-toolDiam =  0.375 
+toolDiam =  3.0/16.0 
 direction = 'ccw'
 startDwell = 1.0
 

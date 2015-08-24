@@ -12,7 +12,7 @@ drillMargin = 0.125
 startZ = 0.0
 stopZ = -(stockThickness + drillMargin)
 safeZ = 0.3
-stepZ = 0.05
+stepZ = 0.03
 startDwell = 0.5
 
 prog = gcode_cmd.GCodeProg()

@@ -10,10 +10,9 @@ depth = 0.27
 startZ = 0.0
 safeZ = 0.5
 maxCutDepth = 0.08
-toolDiam =  0.0425 
+toolDiam =  0.25 
 direction = 'ccw'
 cutterComp = 'outside'
-#cutterComp = None 
 startDwell = 1.0
 startCond = 'minX'
 
