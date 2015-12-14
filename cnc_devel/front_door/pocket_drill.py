@@ -5,7 +5,7 @@ from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
 feedrate = 80.0
-fileName = 'layout.dxf'
+fileName = 'front_door.dxf'
 depth = 0.27 
 startZ = 0.0
 safeZ = 0.5
@@ -16,7 +16,7 @@ toolDiam =  0.125
 direction = 'ccw'
 startDwell = 1.0
 
-layerList = ['10-32_insert_hole','8-32_insert_hole']
+layerList = ['10-32_insert_hole','8-32_insert_hole','8-32_through_hole']
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())

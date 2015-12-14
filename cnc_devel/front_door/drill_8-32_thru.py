@@ -5,7 +5,7 @@ from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
 feedrate = 50.0
-fileName = 'layout.dxf'
+fileName = 'front_door.dxf'
 stockThickness = 0.25
 drillMargin = 0.125
 
@@ -22,7 +22,7 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 param = { 
         'fileName'    : fileName,
-        'layers'      : ['6-32_through_hole'],
+        'layers'      : ['8-32_through_hole'],
         'dxfTypes'    : ['CIRCLE'],
         'startZ'      : startZ,
         'stopZ'       : stopZ,
