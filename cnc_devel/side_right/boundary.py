@@ -6,7 +6,7 @@ from py2gcode import cnc_dxf
 
 feedrate = 150.0
 fileName = 'side_right.dxf'
-depth = 0.27
+depth = 0.30
 startZ = 0.0
 safeZ = 0.5
 maxCutDepth = 0.08
