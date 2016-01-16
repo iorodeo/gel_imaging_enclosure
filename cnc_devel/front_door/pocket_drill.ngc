@@ -362,162 +362,6 @@ G0 Z0.50000000
 ; startDwell: 1.0
 ; maxCutDepth: 0.08
 ; fileName: front_door.dxf
-; radius: 0.08475
-; layers: too big
-; overlapFinish: 0.5
-; depth: 0.28
-; overlap: 0.5
-; safeZ: 0.5
-; dxfTypes: ['CIRCLE']
-; centerX: 10.0
-; centerY: 7.99
-; toolDiam: 0.125
-
-; CircPocketXY: rapid move to safe z
-G0 Z0.50000000
-
-; CircPocketXY: rapid move to start x,y
-G0 X10.02225000 Y7.99000000
-
-; CircPocketXY: dwell
-G4 P1.0
-
-; CircPocketXY: move to start z
-G1 Z0.00000000
-
-; CircPocketXY: pass 1 lead-in
-G1 X10.02225000 Y7.99000000
-G1 X10.02225000 Y7.99000000 Z0.00000000
-G3 X10.02225000 Y7.99000000 Z-0.08000000 I-0.02225000 J0.00000000
-
-; CircPocketXY: pass 1 filled circle
-G1 X10.02225000 Y7.99000000
-G3 X10.02225000 Y7.99000000 I-0.02225000 J0.00000000
-G1 X10.00000000 Y7.99000000
-
-; CircPocketXY: pass 2 lead-in
-G1 X10.02225000 Y7.99000000
-G1 X10.02225000 Y7.99000000 Z-0.08000000
-G3 X10.02225000 Y7.99000000 Z-0.16000000 I-0.02225000 J0.00000000
-
-; CircPocketXY: pass 2 filled circle
-G1 X10.02225000 Y7.99000000
-G3 X10.02225000 Y7.99000000 I-0.02225000 J0.00000000
-G1 X10.00000000 Y7.99000000
-
-; CircPocketXY: pass 3 lead-in
-G1 X10.02225000 Y7.99000000
-G1 X10.02225000 Y7.99000000 Z-0.16000000
-G3 X10.02225000 Y7.99000000 Z-0.24000000 I-0.02225000 J0.00000000
-
-; CircPocketXY: pass 3 filled circle
-G1 X10.02225000 Y7.99000000
-G3 X10.02225000 Y7.99000000 I-0.02225000 J0.00000000
-G1 X10.00000000 Y7.99000000
-
-; CircPocketXY: pass 4 lead-in
-G1 X10.02225000 Y7.99000000
-G1 X10.02225000 Y7.99000000 Z-0.24000000
-G3 X10.02225000 Y7.99000000 Z-0.28000000 I-0.02225000 J0.00000000
-
-; CircPocketXY: pass 4 filled circle
-G1 X10.02225000 Y7.99000000
-G3 X10.02225000 Y7.99000000 I-0.02225000 J0.00000000
-G1 X10.00000000 Y7.99000000
-
-; CircPocketXY: rapid move to safe z
-G0 Z0.50000000
-
-; End CircPocketXY
-; ------------------------------------------------------------
-
-
-; Begin CircPocketXY
-; ------------------------------------------------------------
-; startZ: 0.0
-; direction: ccw
-; components: True
-; startDwell: 1.0
-; maxCutDepth: 0.08
-; fileName: front_door.dxf
-; radius: 0.08475
-; layers: too big
-; overlapFinish: 0.5
-; depth: 0.28
-; overlap: 0.5
-; safeZ: 0.5
-; dxfTypes: ['CIRCLE']
-; centerX: 10.0
-; centerY: 3.99
-; toolDiam: 0.125
-
-; CircPocketXY: rapid move to safe z
-G0 Z0.50000000
-
-; CircPocketXY: rapid move to start x,y
-G0 X10.02225000 Y3.99000000
-
-; CircPocketXY: dwell
-G4 P1.0
-
-; CircPocketXY: move to start z
-G1 Z0.00000000
-
-; CircPocketXY: pass 1 lead-in
-G1 X10.02225000 Y3.99000000
-G1 X10.02225000 Y3.99000000 Z0.00000000
-G3 X10.02225000 Y3.99000000 Z-0.08000000 I-0.02225000 J0.00000000
-
-; CircPocketXY: pass 1 filled circle
-G1 X10.02225000 Y3.99000000
-G3 X10.02225000 Y3.99000000 I-0.02225000 J0.00000000
-G1 X10.00000000 Y3.99000000
-
-; CircPocketXY: pass 2 lead-in
-G1 X10.02225000 Y3.99000000
-G1 X10.02225000 Y3.99000000 Z-0.08000000
-G3 X10.02225000 Y3.99000000 Z-0.16000000 I-0.02225000 J0.00000000
-
-; CircPocketXY: pass 2 filled circle
-G1 X10.02225000 Y3.99000000
-G3 X10.02225000 Y3.99000000 I-0.02225000 J0.00000000
-G1 X10.00000000 Y3.99000000
-
-; CircPocketXY: pass 3 lead-in
-G1 X10.02225000 Y3.99000000
-G1 X10.02225000 Y3.99000000 Z-0.16000000
-G3 X10.02225000 Y3.99000000 Z-0.24000000 I-0.02225000 J0.00000000
-
-; CircPocketXY: pass 3 filled circle
-G1 X10.02225000 Y3.99000000
-G3 X10.02225000 Y3.99000000 I-0.02225000 J0.00000000
-G1 X10.00000000 Y3.99000000
-
-; CircPocketXY: pass 4 lead-in
-G1 X10.02225000 Y3.99000000
-G1 X10.02225000 Y3.99000000 Z-0.24000000
-G3 X10.02225000 Y3.99000000 Z-0.28000000 I-0.02225000 J0.00000000
-
-; CircPocketXY: pass 4 filled circle
-G1 X10.02225000 Y3.99000000
-G3 X10.02225000 Y3.99000000 I-0.02225000 J0.00000000
-G1 X10.00000000 Y3.99000000
-
-; CircPocketXY: rapid move to safe z
-G0 Z0.50000000
-
-; End CircPocketXY
-; ------------------------------------------------------------
-
-
-; Begin CircPocketXY
-; ------------------------------------------------------------
-; startZ: 0.0
-; direction: ccw
-; components: True
-; startDwell: 1.0
-; maxCutDepth: 0.08
-; fileName: front_door.dxf
 ; radius: 0.1155
 ; layers: too big
 ; overlapFinish: 0.5
@@ -580,6 +424,162 @@ G3 X9.80300000 Y5.99000000 Z-0.28000000 I-0.05300000 J0.00000000
 G1 X9.80300000 Y5.99000000
 G3 X9.80300000 Y5.99000000 I-0.05300000 J0.00000000
 G1 X9.75000000 Y5.99000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: front_door.dxf
+; radius: 0.086
+; layers: too big
+; overlapFinish: 0.5
+; depth: 0.28
+; overlap: 0.5
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 10.0
+; centerY: 7.99
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X10.02350000 Y7.99000000
+
+; CircPocketXY: dwell
+G4 P1.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X10.02350000 Y7.99000000
+G1 X10.02350000 Y7.99000000 Z0.00000000
+G3 X10.02350000 Y7.99000000 Z-0.08000000 I-0.02350000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X10.02350000 Y7.99000000
+G3 X10.02350000 Y7.99000000 I-0.02350000 J0.00000000
+G1 X10.00000000 Y7.99000000
+
+; CircPocketXY: pass 2 lead-in
+G1 X10.02350000 Y7.99000000
+G1 X10.02350000 Y7.99000000 Z-0.08000000
+G3 X10.02350000 Y7.99000000 Z-0.16000000 I-0.02350000 J0.00000000
+
+; CircPocketXY: pass 2 filled circle
+G1 X10.02350000 Y7.99000000
+G3 X10.02350000 Y7.99000000 I-0.02350000 J0.00000000
+G1 X10.00000000 Y7.99000000
+
+; CircPocketXY: pass 3 lead-in
+G1 X10.02350000 Y7.99000000
+G1 X10.02350000 Y7.99000000 Z-0.16000000
+G3 X10.02350000 Y7.99000000 Z-0.24000000 I-0.02350000 J0.00000000
+
+; CircPocketXY: pass 3 filled circle
+G1 X10.02350000 Y7.99000000
+G3 X10.02350000 Y7.99000000 I-0.02350000 J0.00000000
+G1 X10.00000000 Y7.99000000
+
+; CircPocketXY: pass 4 lead-in
+G1 X10.02350000 Y7.99000000
+G1 X10.02350000 Y7.99000000 Z-0.24000000
+G3 X10.02350000 Y7.99000000 Z-0.28000000 I-0.02350000 J0.00000000
+
+; CircPocketXY: pass 4 filled circle
+G1 X10.02350000 Y7.99000000
+G3 X10.02350000 Y7.99000000 I-0.02350000 J0.00000000
+G1 X10.00000000 Y7.99000000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.08
+; fileName: front_door.dxf
+; radius: 0.086
+; layers: too big
+; overlapFinish: 0.5
+; depth: 0.28
+; overlap: 0.5
+; safeZ: 0.5
+; dxfTypes: ['CIRCLE']
+; centerX: 10.0
+; centerY: 3.99
+; toolDiam: 0.125
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X10.02350000 Y3.99000000
+
+; CircPocketXY: dwell
+G4 P1.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X10.02350000 Y3.99000000
+G1 X10.02350000 Y3.99000000 Z0.00000000
+G3 X10.02350000 Y3.99000000 Z-0.08000000 I-0.02350000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X10.02350000 Y3.99000000
+G3 X10.02350000 Y3.99000000 I-0.02350000 J0.00000000
+G1 X10.00000000 Y3.99000000
+
+; CircPocketXY: pass 2 lead-in
+G1 X10.02350000 Y3.99000000
+G1 X10.02350000 Y3.99000000 Z-0.08000000
+G3 X10.02350000 Y3.99000000 Z-0.16000000 I-0.02350000 J0.00000000
+
+; CircPocketXY: pass 2 filled circle
+G1 X10.02350000 Y3.99000000
+G3 X10.02350000 Y3.99000000 I-0.02350000 J0.00000000
+G1 X10.00000000 Y3.99000000
+
+; CircPocketXY: pass 3 lead-in
+G1 X10.02350000 Y3.99000000
+G1 X10.02350000 Y3.99000000 Z-0.16000000
+G3 X10.02350000 Y3.99000000 Z-0.24000000 I-0.02350000 J0.00000000
+
+; CircPocketXY: pass 3 filled circle
+G1 X10.02350000 Y3.99000000
+G3 X10.02350000 Y3.99000000 I-0.02350000 J0.00000000
+G1 X10.00000000 Y3.99000000
+
+; CircPocketXY: pass 4 lead-in
+G1 X10.02350000 Y3.99000000
+G1 X10.02350000 Y3.99000000 Z-0.24000000
+G3 X10.02350000 Y3.99000000 Z-0.28000000 I-0.02350000 J0.00000000
+
+; CircPocketXY: pass 4 filled circle
+G1 X10.02350000 Y3.99000000
+G3 X10.02350000 Y3.99000000 I-0.02350000 J0.00000000
+G1 X10.00000000 Y3.99000000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.50000000
