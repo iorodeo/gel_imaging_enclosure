@@ -1,0 +1,355 @@
+
+; Generic Start
+G40 (Cancel cutter radius compensation)
+G49 (Cancel tool length offset)
+G80 (Cancel canned cycle)
+G54 (Select coordinate system 1)
+G90 (Set absolute distance mode)
+G20 (Set units to inches)
+G61 (Exact path mode)
+
+
+; Setup laser
+F 10.0
+M65 P1
+S 600.0
+M3
+G4 P3.0
+
+; Begin LaserCircPath
+; ------------------------------------------------------------
+; maxArcLen: 0.01
+; startCond: minX
+; returnHome: True
+; startDwell: 3.0
+; direction: ccw
+; fileName: mini_ledtrans_insert.dxf
+; radius: 0.08475
+; convertArcs: True
+; ptEquivTol: 0.0004
+; layers: ['vector']
+; feedRate: 10
+; center: (0.8, 3.3)
+; laserHomeXY: (35, 23)
+; dxfTypes: ['LINE', 'ARC', 'CIRCLE']
+; laserPower: 600
+; laserDIOPin: 1
+
+; LaserCircPath: rapid move to start x,y
+G0 X0.88475000 Y3.30000000
+
+; Laser on
+M62 P1
+G1 X0.88475000 Y3.30000000
+G2 X0.88475000 Y3.30000000 I-0.08475000 J0.00000000
+
+; Laser off
+M65 P1
+
+; End LaserCircPath
+; ------------------------------------------------------------
+
+
+; Begin LaserCircPath
+; ------------------------------------------------------------
+; maxArcLen: 0.01
+; startCond: minX
+; returnHome: True
+; startDwell: 3.0
+; direction: ccw
+; fileName: mini_ledtrans_insert.dxf
+; radius: 0.08475
+; convertArcs: True
+; ptEquivTol: 0.0004
+; layers: ['vector']
+; feedRate: 10
+; center: (0.8, 10.3)
+; laserHomeXY: (35, 23)
+; dxfTypes: ['LINE', 'ARC', 'CIRCLE']
+; laserPower: 600
+; laserDIOPin: 1
+
+; LaserCircPath: rapid move to start x,y
+G0 X0.88475000 Y10.30000000
+
+; Laser on
+M62 P1
+G1 X0.88475000 Y10.30000000
+G2 X0.88475000 Y10.30000000 I-0.08475000 J0.00000000
+
+; Laser off
+M65 P1
+
+; End LaserCircPath
+; ------------------------------------------------------------
+
+
+; Begin LaserCircPath
+; ------------------------------------------------------------
+; maxArcLen: 0.01
+; startCond: minX
+; returnHome: True
+; startDwell: 3.0
+; direction: ccw
+; fileName: mini_ledtrans_insert.dxf
+; radius: 0.08475
+; convertArcs: True
+; ptEquivTol: 0.0004
+; layers: ['vector']
+; feedRate: 10
+; center: (10.8, 10.3)
+; laserHomeXY: (35, 23)
+; dxfTypes: ['LINE', 'ARC', 'CIRCLE']
+; laserPower: 600
+; laserDIOPin: 1
+
+; LaserCircPath: rapid move to start x,y
+G0 X10.88475000 Y10.30000000
+
+; Laser on
+M62 P1
+G1 X10.88475000 Y10.30000000
+G2 X10.88475000 Y10.30000000 I-0.08475000 J0.00000000
+
+; Laser off
+M65 P1
+
+; End LaserCircPath
+; ------------------------------------------------------------
+
+
+; Begin LaserCircPath
+; ------------------------------------------------------------
+; maxArcLen: 0.01
+; startCond: minX
+; returnHome: True
+; startDwell: 3.0
+; direction: ccw
+; fileName: mini_ledtrans_insert.dxf
+; radius: 0.08475
+; convertArcs: True
+; ptEquivTol: 0.0004
+; layers: ['vector']
+; feedRate: 10
+; center: (10.8, 3.3)
+; laserHomeXY: (35, 23)
+; dxfTypes: ['LINE', 'ARC', 'CIRCLE']
+; laserPower: 600
+; laserDIOPin: 1
+
+; LaserCircPath: rapid move to start x,y
+G0 X10.88475000 Y3.30000000
+
+; Laser on
+M62 P1
+G1 X10.88475000 Y3.30000000
+G2 X10.88475000 Y3.30000000 I-0.08475000 J0.00000000
+
+; Laser off
+M65 P1
+
+; End LaserCircPath
+; ------------------------------------------------------------
+
+
+; Begin LaserLineSegPath
+; ------------------------------------------------------------
+; maxArcLen: 0.01
+; startCond: minX
+; returnHome: True
+; startDwell: 3.0
+; direction: ccw
+; fileName: mini_ledtrans_insert.dxf
+; convertArcs: True
+; ptEquivTol: 0.0004
+; layers: ['vector']
+; feedRate: 10
+; closed: True
+; laserHomeXY: (35, 23)
+; dxfTypes: ['LINE', 'ARC', 'CIRCLE']
+; laserPower: 600
+; laserDIOPin: 1
+; pointList: too big
+
+; LaserLineSegPath: rapid move to start x,y
+G0 X0.50000000 Y3.12500000
+G64 p0.001 q0.001
+
+; Laser on
+M62 P1
+G1 X0.50000000 Y3.12500000
+G1 X0.50042694 Y3.11467758
+G1 X0.50170484 Y3.10442568
+G1 X0.50382497 Y3.09431431
+G1 X0.50677284 Y3.08441257
+G1 X0.51052833 Y3.07478807
+G1 X0.51506578 Y3.06550658
+G1 X0.52035419 Y3.05663148
+G1 X0.52635744 Y3.04822341
+G1 X0.53303451 Y3.04033980
+G1 X0.54033980 Y3.03303451
+G1 X0.54822341 Y3.02635744
+G1 X0.55663148 Y3.02035419
+G1 X0.56550658 Y3.01506578
+G1 X0.57478807 Y3.01052833
+G1 X0.58441257 Y3.00677284
+G1 X0.59431431 Y3.00382497
+G1 X0.60442568 Y3.00170484
+G1 X0.61467758 Y3.00042694
+G1 X0.62500000 Y3.00000000
+G1 X10.97500000 Y3.00000000
+G1 X10.98532242 Y3.00042694
+G1 X10.99557432 Y3.00170484
+G1 X11.00568569 Y3.00382497
+G1 X11.01558743 Y3.00677284
+G1 X11.02521193 Y3.01052833
+G1 X11.03449342 Y3.01506578
+G1 X11.04336852 Y3.02035419
+G1 X11.05177659 Y3.02635744
+G1 X11.05966020 Y3.03303451
+G1 X11.06696549 Y3.04033980
+G1 X11.07364256 Y3.04822341
+G1 X11.07964581 Y3.05663148
+G1 X11.08493422 Y3.06550658
+G1 X11.08947167 Y3.07478807
+G1 X11.09322716 Y3.08441257
+G1 X11.09617503 Y3.09431431
+G1 X11.09829516 Y3.10442568
+G1 X11.09957306 Y3.11467758
+G1 X11.10000000 Y3.12500000
+G1 X11.10000000 Y10.47500000
+G1 X11.09957306 Y10.48532242
+G1 X11.09829516 Y10.49557432
+G1 X11.09617503 Y10.50568569
+G1 X11.09322716 Y10.51558743
+G1 X11.08947167 Y10.52521193
+G1 X11.08493422 Y10.53449342
+G1 X11.07964581 Y10.54336852
+G1 X11.07364256 Y10.55177659
+G1 X11.06696549 Y10.55966020
+G1 X11.05966020 Y10.56696549
+G1 X11.05177659 Y10.57364256
+G1 X11.04336852 Y10.57964581
+G1 X11.03449342 Y10.58493422
+G1 X11.02521193 Y10.58947167
+G1 X11.01558743 Y10.59322716
+G1 X11.00568569 Y10.59617503
+G1 X10.99557432 Y10.59829516
+G1 X10.98532242 Y10.59957306
+G1 X10.97500000 Y10.60000000
+G1 X0.62500000 Y10.60000000
+G1 X0.61467758 Y10.59957306
+G1 X0.60442568 Y10.59829516
+G1 X0.59431431 Y10.59617503
+G1 X0.58441257 Y10.59322716
+G1 X0.57478807 Y10.58947167
+G1 X0.56550658 Y10.58493422
+G1 X0.55663148 Y10.57964581
+G1 X0.54822341 Y10.57364256
+G1 X0.54033980 Y10.56696549
+G1 X0.53303451 Y10.55966020
+G1 X0.52635744 Y10.55177659
+G1 X0.52035419 Y10.54336852
+G1 X0.51506578 Y10.53449342
+G1 X0.51052833 Y10.52521193
+G1 X0.50677284 Y10.51558743
+G1 X0.50382497 Y10.50568569
+G1 X0.50170484 Y10.49557432
+G1 X0.50042694 Y10.48532242
+G1 X0.50000000 Y10.47500000
+G1 X0.50000000 Y3.12500000
+G1 X0.50000000 Y3.12500000
+
+; Laser off
+M65 P1
+G61
+
+; End LaserLineSegPath
+; ------------------------------------------------------------
+
+
+; Begin LaserLineSegPath
+; ------------------------------------------------------------
+; maxArcLen: 0.01
+; startCond: minX
+; returnHome: True
+; startDwell: 3.0
+; direction: ccw
+; fileName: mini_ledtrans_insert.dxf
+; convertArcs: True
+; ptEquivTol: 0.0004
+; layers: ['vector']
+; feedRate: 10
+; closed: True
+; laserHomeXY: (35, 23)
+; dxfTypes: ['LINE', 'ARC', 'CIRCLE']
+; laserPower: 600
+; laserDIOPin: 1
+; pointList: too big
+
+; LaserLineSegPath: rapid move to start x,y
+G0 X4.33000000 Y9.37250000
+G64 p0.001 q0.001
+
+; Laser on
+M62 P1
+G1 X4.33000000 Y9.37250000
+G1 X4.33000000 Y4.22750000
+G1 X4.33094952 Y4.21664699
+G1 X4.33376921 Y4.20612374
+G1 X4.33837341 Y4.19625000
+G1 X4.34462222 Y4.18732577
+G1 X4.35232577 Y4.17962222
+G1 X4.36125000 Y4.17337341
+G1 X4.37112374 Y4.16876921
+G1 X4.38164699 Y4.16594952
+G1 X4.39250000 Y4.16500000
+G1 X7.20750000 Y4.16500000
+G1 X7.21835301 Y4.16594952
+G1 X7.22887626 Y4.16876921
+G1 X7.23875000 Y4.17337341
+G1 X7.24767423 Y4.17962222
+G1 X7.25537778 Y4.18732577
+G1 X7.26162659 Y4.19625000
+G1 X7.26623079 Y4.20612374
+G1 X7.26905048 Y4.21664699
+G1 X7.27000000 Y4.22750000
+G1 X7.27000000 Y9.37250000
+G1 X7.26905048 Y9.38335301
+G1 X7.26623079 Y9.39387626
+G1 X7.26162659 Y9.40375000
+G1 X7.25537778 Y9.41267423
+G1 X7.24767423 Y9.42037778
+G1 X7.23875000 Y9.42662659
+G1 X7.22887626 Y9.43123079
+G1 X7.21835301 Y9.43405048
+G1 X7.20750000 Y9.43500000
+G1 X4.39250000 Y9.43500000
+G1 X4.38164699 Y9.43405048
+G1 X4.37112374 Y9.43123079
+G1 X4.36125000 Y9.42662659
+G1 X4.35232577 Y9.42037778
+G1 X4.34462222 Y9.41267423
+G1 X4.33837341 Y9.40375000
+G1 X4.33376921 Y9.39387626
+G1 X4.33094952 Y9.38335301
+G1 X4.33000000 Y9.37250000
+G1 X4.33000000 Y9.37250000
+
+; Laser off
+M65 P1
+G61
+
+; End LaserLineSegPath
+; ------------------------------------------------------------
+
+
+; Shutdown laser
+M65 P1
+M5
+S 0.0
+
+; VectorCut: rapid move to {'y': 23, 'x': 35}
+G0 X35.00000000 Y23.00000000
+
+M2 (End program)
