@@ -19,7 +19,6 @@ startDwell = 1.0
 layerList = [
     '10-32_insert_hole', 
     '6-32_insert_hole', 
-    '6-32_through_hole', 
     '8-32_insert_hole',
     '8-32_through_hole'
     ]
