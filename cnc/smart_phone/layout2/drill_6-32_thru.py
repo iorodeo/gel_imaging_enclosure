@@ -8,9 +8,10 @@ feedrate = 50.0
 fileName = 'layout2.dxf'
 stockThickness = 0.25
 drillMargin = 0.125
+topSheetThickness = 0.0
 
 startZ = 0.0
-stopZ = -(stockThickness + drillMargin)
+stopZ = -(stockThickness + drillMargin + topSheetThickness)
 safeZ = 0.3
 stepZ = 0.05
 startDwell = 0.5
