@@ -14,7 +14,7 @@ G64 p0.02 q0.01
 ; Begin CircBoundaryXY
 ; ------------------------------------------------------------
 ; startZ: 0.0
-; layers: ['camera_hole']
+; layers: ['camera_hole_dslr']
 ; cutterComp: inside
 ; startDwell: 1.0
 ; direction: ccw
@@ -59,62 +59,6 @@ G3 X18.13750000 Y7.95000000 Z-0.30000000 I-1.32500000 J0.00000000
 ; CircBoundaryXY: CircPath 4
 G1 X18.13750000 Y7.95000000 Z-0.30000000
 G3 X18.13750000 Y7.95000000 Z-0.30000000 I-1.32500000 J0.00000000
-
-; CircBoundaryXY: rapid move to safe z
-G0 Z0.50000000
-
-; End CircBoundaryXY
-; ------------------------------------------------------------
-
-
-; Begin CircBoundaryXY
-; ------------------------------------------------------------
-; startZ: 0.0
-; layers: ['camera_hole']
-; cutterComp: inside
-; startDwell: 1.0
-; direction: ccw
-; maxCutDepth: 0.08
-; fileName: tops_and_mounts.dxf
-; safeZ: 0.5
-; depth: 0.3
-; radius: 0.25
-; dxfTypes: ['LINE', 'ARC', 'CIRCLE']
-; centerX: 26.75
-; centerY: 7.9425
-; toolDiam: 0.25
-
-; CircBoundaryXY: rapid move to safe z
-G0 Z0.50000000
-
-; CircBoundaryXY: rapid move to start x,y
-G0 X26.87500000 Y7.94250000
-
-; CircBoundaryXY: dwell
-G4 P1.0
-
-; CircBoundaryXY: move to start z
-G1 Z0.00000000
-
-; CircBoundaryXY: CircPath 0
-G1 X26.87500000 Y7.94250000 Z0.00000000
-G3 X26.87500000 Y7.94250000 Z-0.08000000 I-0.12500000 J0.00000000
-
-; CircBoundaryXY: CircPath 1
-G1 X26.87500000 Y7.94250000 Z-0.08000000
-G3 X26.87500000 Y7.94250000 Z-0.16000000 I-0.12500000 J0.00000000
-
-; CircBoundaryXY: CircPath 2
-G1 X26.87500000 Y7.94250000 Z-0.16000000
-G3 X26.87500000 Y7.94250000 Z-0.24000000 I-0.12500000 J0.00000000
-
-; CircBoundaryXY: CircPath 3
-G1 X26.87500000 Y7.94250000 Z-0.24000000
-G3 X26.87500000 Y7.94250000 Z-0.30000000 I-0.12500000 J0.00000000
-
-; CircBoundaryXY: CircPath 4
-G1 X26.87500000 Y7.94250000 Z-0.30000000
-G3 X26.87500000 Y7.94250000 Z-0.30000000 I-0.12500000 J0.00000000
 
 ; CircBoundaryXY: rapid move to safe z
 G0 Z0.50000000

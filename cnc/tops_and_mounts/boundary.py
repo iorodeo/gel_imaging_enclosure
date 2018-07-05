@@ -26,7 +26,7 @@ if True:
     param = {
             'fileName'    : fileName,
             'dxfTypes'    : ['LINE', 'ARC', 'CIRCLE'],
-            'layers'      : ['camera_hole'],
+            'layers'      : ['camera_hole_dslr'],
             'depth'       : depth,
             'startZ'      : startZ,
             'safeZ'       : safeZ,

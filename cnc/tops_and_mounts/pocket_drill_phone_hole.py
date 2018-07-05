@@ -20,45 +20,17 @@ startDwell = 1.0
 smallHoleCoolingPause = 2.0
 smallHoleOversize = 0.005
 
-smallHoleLayerList = ['6-32_through_hole'] 
 
 bigHoleLayerList = [
-    '6-32_insert_hole', 
-    '8-32_insert_hole',
-    '8-32_through_hole',
     'camera_hole_phone',
     ]
 
-#smallHoleLayerList = [] 
-#
-#bigHoleLayerList = [
-#    '6-32_insert_hole_tmp', 
-#    '8-32_insert_hole_tmp',
-#    ]
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
 
-param = {
-        'fileName'       : fileName,
-        'layers'         : smallHoleLayerList, 
-        'components'     : True,
-        'depth'          : depth,
-        'startZ'         : startZ,
-        'safeZ'          : safeZ,
-        'overlap'        : overlap,
-        'overlapFinish'  : overlapFinish,
-        'maxCutDepth'    : maxCutDepth,
-        'toolDiam'       : toolDiam-smallHoleOversize,
-        'direction'      : direction,
-        'coolingPause'   : smallHoleCoolingPause,
-        'startDwell'     : startDwell,
-        }
-
-pocket = cnc_dxf.DxfCircPocket(param)
-prog.add(pocket)
 
 param = {
         'fileName'       : fileName,
